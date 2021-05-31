@@ -147,6 +147,18 @@ li.move-right{
     line-height: initial;
 }
 
+.bx-chevron-down{
+    transition: transform 0.5s ease-in-out;
+}
+.nav-list li:hover > a .bx-chevron-down{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.arrow-up{
+    transform: rotate(180deg);
+}
+
 @media screen and (max-width: 850px){
     .nav-list{
         position: fixed; 
